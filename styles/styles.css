@@ -10,9 +10,7 @@ aside {
     color: #333;
     text-align: center;
 }
-aside p {
-    padding: 0;
-}
+
 aside img {
     width: 200px;
     height: auto;
