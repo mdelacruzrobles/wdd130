@@ -1,3 +1,9 @@
+:root {
+    --heading-font-color : red;
+    --title-background-color : linear-gradient(to left, tomato, black);
+
+}
+
 main {
     max-width: 840px;
 }
@@ -25,7 +31,9 @@ main img {
 }
 
 nav {
-    background-color: darkblue;
+    background: var(--title-background-color);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     padding: 10px;
     border: 1px;
 }
@@ -35,7 +43,7 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: darkblue;
+    color: var(--heading-font-color);
 }
 img {
     width: 150px;
