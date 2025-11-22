@@ -1,6 +1,6 @@
 :root {
-    --primary-color: white;
-    --secondary-color: black;
+    --primary-color: #fff;
+    --secondary-color: #000;
     --accent1-color: #264653;
     --accent2-color: #68767a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -36,7 +36,7 @@ nav ul{
 
 body {
     font-family: var(--body-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 header, main, footer {
