@@ -84,7 +84,7 @@ nav, p, section, article {
 }
 .hero article {
     background-color: var(--accent2-color);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     position: absolute;
     bottom: 0px;
     opacity: 0.9;
@@ -122,6 +122,7 @@ h2 {
     background-color: var(--accent1-color);
     text-align: center;
     padding: 16px;
+    color: var(--secondary-color);
 }section{
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
