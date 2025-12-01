@@ -47,7 +47,7 @@ header, main, footer {
 
 h1, h2, h4 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-colorr);
 }
 
 .socialmedia {
@@ -71,9 +71,13 @@ h1, h2, h4 {
     color: var(--primary-color);
 }
 
-.hero h4 {
+h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
     text-align: center;
+    font-size: medium;
 }
+
 
 section.style {
     display: grid;
