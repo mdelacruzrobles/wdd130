@@ -79,7 +79,7 @@ h4 {
 }
 
 
-section.style {
+div.style {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
