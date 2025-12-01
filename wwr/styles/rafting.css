@@ -139,7 +139,7 @@ iframe{
     gap: 0.5rem;
 }
 
-input.form {
+#submit {
     grid-column: 1/-1;
 }
 
